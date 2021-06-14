@@ -11,6 +11,9 @@
                <li class="nav-item">
                  <a class="nav-link" href="{{ route('home')}}">HOME</a>
                </li>
+               <li>
+                 <a class="nav-link" href="{{ route('comics.index')}}">COMICS</a>
+               </li>
               
             </ul>
             

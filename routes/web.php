@@ -14,3 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'PageController@index')->name('home');
+
+// PARAMENTRI COMICS
+
+Route::resource('comics', 'ComicController');
